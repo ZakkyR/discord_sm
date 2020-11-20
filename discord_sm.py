@@ -39,6 +39,7 @@ Commands
 @bot.command(description='メッセージショートカット登録', usage='sm!add [shortcut] [message_id]')
 async def add(ctx: commands.context, shortcut: str, message_id: int):
     """
+    メッセージショートカット登録
     shortcut: ショートカット名
     message_id: メッセージID
     """
@@ -76,6 +77,7 @@ async def add(ctx: commands.context, shortcut: str, message_id: int):
 @bot.command(description='メッセージショートカット削除', usage='sm!delete [shortcut]')
 async def delete(ctx: commands.context, shortcut: str):
     """
+    メッセージショートカット削除
     shortcut: ショートカット名
     """
     try:
