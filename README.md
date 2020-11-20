@@ -1,1 +1,2 @@
 # discord_sm
+メッセージのショートカットが登録できるdiscordBOT
